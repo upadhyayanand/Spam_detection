@@ -5,7 +5,7 @@ This project is a Machine Learning–based SMS Spam Detection system that classi
 The model converts text into numerical features using Count Vectorization and TF-IDF, then applies multiple ML algorithms to find the best-performing classifier.
 
 
-----------------------------------------------
+---------------------------------------------
 
 
 
