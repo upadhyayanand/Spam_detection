@@ -1,4 +1,4 @@
-**📩 SMS Spam Detection using Machine Learning**
+**📩 SMS Spam Detection using Machine Learning:**
 
 This project is a Machine Learning–based SMS Spam Detection system that classifies messages as Spam or Ham (Not Spam) using Natural Language Processing (NLP) techniques.
 
@@ -9,7 +9,7 @@ The model converts text into numerical features using Count Vectorization and TF
 
 
 
-**🚀 Features**
+**🚀 Features:**
 
 -Text preprocessing and vectorization
 
@@ -26,7 +26,7 @@ The model converts text into numerical features using Count Vectorization and TF
 
 
 
-**🧠 Machine Learning Models Used**
+**🧠 Machine Learning Models Used:**
 
 -Naive Bayes (MultinomialNB)
 
@@ -39,7 +39,7 @@ The model converts text into numerical features using Count Vectorization and TF
 
 
 
-**🔧 Vectorization Techniques**
+**🔧 Vectorization Techniques:**
 
 -CountVectorizer
 
@@ -53,7 +53,8 @@ The model converts text into numerical features using Count Vectorization and TF
 
 
 
-**🛠️ Tech Stack & Libraries**
+**🛠️ Tech Stack & Libraries:**
+
 -pandas
 -scikit-learn
 -joblib
@@ -79,7 +80,8 @@ from sklearn.metrics import accuracy_score
 
 
 
-**📊 Project Workflow**
+**📊 Project Workflow:**
+
 -Raw SMS Text
      ↓
 -Text Vectorization (CountVectorizer / TF-IDF)
@@ -96,7 +98,7 @@ from sklearn.metrics import accuracy_score
 ------------------------
 
 
-**🧪 Dataset**
+**🧪 Dataset:**
 
 SMS Spam Collection Dataset
 
@@ -109,7 +111,7 @@ ham
 -----------------------------------
 
 
-**📈 Model Evaluation**
+**📈 Model Evaluation:**
 
 Models are evaluated using Accuracy Score.
 
@@ -127,7 +129,7 @@ Example output:
 --------------------------------------
 
 
-**💾 Model Saving**
+**💾 Model Saving:**
 
 **The best-performing model is saved using joblib:**
 
@@ -162,7 +164,7 @@ Example output:
 
 ------------------------------------------     
 
-**📌 Example Prediction**
+**📌 Example Prediction:**
      -Message: "Congratulations! You won a free gift"
      -Prediction: Spam
      
@@ -176,7 +178,8 @@ Prediction: Ham
 --------------------------------------------
 
 
-**📂 Project Structure**
+**📂 Project Structure:**
+
    SMS_Detection_ML/
    │
    ├── DATA/
@@ -191,7 +194,8 @@ Prediction: Ham
 ---------------------------------------------
 
 
-**🎯 Key Learnings**
+**🎯 Key Learnings:**
+
 
    -NLP text preprocessing
 
