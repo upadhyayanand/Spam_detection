@@ -6,6 +6,8 @@ The model converts text into numerical features using Count Vectorization and TF
 
 
 
+
+
 **🚀 Features**
 
 -Text preprocessing and vectorization
@@ -21,6 +23,7 @@ The model converts text into numerical features using Count Vectorization and TF
 
 
 
+
 **🧠 Machine Learning Models Used**
 
 -Naive Bayes (MultinomialNB)
@@ -32,23 +35,24 @@ The model converts text into numerical features using Count Vectorization and TF
 
 
 
+
 **🔧 Vectorization Techniques**
 
-CountVectorizer
+-CountVectorizer
 
-Converts text into word-frequency vectors
+-Converts text into word-frequency vectors
 
-TF-IDF (Term Frequency–Inverse Document Frequency)
+-TF-IDF (Term Frequency–Inverse Document Frequency)
 
-Gives importance to rare and meaningful words
+-Gives importance to rare and meaningful words
 
 
 
 
 **🛠️ Tech Stack & Libraries**
-pandas
-scikit-learn
-joblib
+-pandas
+-scikit-learn
+-joblib
 
 
 
@@ -68,6 +72,7 @@ from sklearn.metrics import accuracy_score
 
 
 
+
 **📊 Project Workflow**
 -Raw SMS Text
      ↓
@@ -83,6 +88,7 @@ from sklearn.metrics import accuracy_score
 
 
 
+
 **🧪 Dataset**
 
 SMS Spam Collection Dataset
@@ -92,6 +98,7 @@ Contains labeled SMS messages:
 spam
 
 ham
+
 
 
 
@@ -111,6 +118,7 @@ Example output:
 
 
 
+
 **💾 Model Saving**
 
 **The best-performing model is saved using joblib:**
@@ -122,11 +130,13 @@ Example output:
 
 
 
+
 **▶️ How to Run the Project**
 **1️⃣ Clone the Repository**
 
   git clone https://github.com/your-username/spam-detection-ml.git
   cd spam-detection-ml
+
 
 
 
@@ -150,6 +160,7 @@ Example output:
 
 Message: "Are we meeting tomorrow?"
 Prediction: Ham
+
 
 
 
@@ -181,6 +192,7 @@ Prediction: Ham
   -Pipeline-based ML workflow
 
   
+
 
 
 **🧑‍💻 Author**
