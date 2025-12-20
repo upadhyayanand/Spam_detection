@@ -5,6 +5,7 @@ This project is a Machine Learning–based SMS Spam Detection system that classi
 The model converts text into numerical features using Count Vectorization and TF-IDF, then applies multiple ML algorithms to find the best-performing classifier.
 
 
+----------------------------------------------
 
 
 
@@ -21,6 +22,7 @@ The model converts text into numerical features using Count Vectorization and TF
 -Ready for real-time SMS prediction
 
 
+------------------------------------------
 
 
 
@@ -33,6 +35,7 @@ The model converts text into numerical features using Count Vectorization and TF
 -Linear Support Vector Machine (LinearSVC)
 
 
+-------------------------------------
 
 
 
@@ -46,6 +49,7 @@ The model converts text into numerical features using Count Vectorization and TF
 
 -Gives importance to rare and meaningful words
 
+-----------------------------------------------
 
 
 
@@ -55,6 +59,7 @@ The model converts text into numerical features using Count Vectorization and TF
 -joblib
 
 
+-----------------------------------------
 
 
 **Key imports used in the project:**
@@ -70,6 +75,7 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.svm import LinearSVC
 from sklearn.metrics import accuracy_score
 
+--------------------------------------------
 
 
 
@@ -87,6 +93,7 @@ from sklearn.metrics import accuracy_score
 -Best Model Saved
 
 
+------------------------
 
 
 **🧪 Dataset**
