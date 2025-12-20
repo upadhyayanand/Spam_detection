@@ -91,16 +91,21 @@ The model converts text into numerical features using Count Vectorization and TF
 
 
 **📊 Project Workflow:**
-
+###
 -Raw SMS Text
+####
      ↓
 -Text Vectorization (CountVectorizer / TF-IDF)
+####
      ↓
 -Train-Test Split
+#####
      ↓
 -Model Training (NB / LR / SVM)
+#####
      ↓
 -Model Evaluation
+#####
      ↓
 -Best Model Saved
 
@@ -196,7 +201,7 @@ Prediction: Ham
    SMS_Detection_ML/
    │
    ├── DATA/
-   │        └── spam.csv
+   │       └── spam.csv
    │
    ├── SpamDetection.py
    ├── spam_prediction.py
@@ -216,7 +221,7 @@ Prediction: Ham
 ###
    -Supervised classification
 ###
-   - Model comparison and selection
+   -Model comparison and selection
 #### 
    -Pipeline-based ML workflow
 
