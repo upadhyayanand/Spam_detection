@@ -143,13 +143,10 @@ Example output:
 
 **💾 Model Saving:**
 ###
-
 **The best-performing model is saved using joblib:**
 ###
-
 -joblib.dump(best_model, "best_model.pkl")
 ####
-
 
 **This allows reuse without retraining.**
 
@@ -157,8 +154,9 @@ Example output:
 -------------------------------------------
 
 
-**▶️ How to Run the Project**
-**1️⃣ Clone the Repository**
+**▶️ How to Run the Project:**
+
+  1️⃣ Clone the Repository
 #####
   git clone https://github.com/your-username/spam-detection-ml.git
   cd spam-detection-ml
