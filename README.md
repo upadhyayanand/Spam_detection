@@ -56,7 +56,9 @@ The model converts text into numerical features using Count Vectorization and TF
 **🛠️ Tech Stack & Libraries:**
 
 -pandas
+##
 -scikit-learn
+##
 -joblib
 
 
@@ -109,8 +111,10 @@ The model converts text into numerical features using Count Vectorization and TF
 **🧪 Dataset:**
 
 SMS Spam Collection Dataset
+####
 
 Contains labeled SMS messages:
+###
 
 spam
 
@@ -138,10 +142,13 @@ Example output:
 
 
 **💾 Model Saving:**
+###
 
 **The best-performing model is saved using joblib:**
+###
 
 -joblib.dump(best_model, "best_model.pkl")
+####
 
 
 **This allows reuse without retraining.**
@@ -152,7 +159,7 @@ Example output:
 
 **▶️ How to Run the Project**
 **1️⃣ Clone the Repository**
-
+#####
   git clone https://github.com/your-username/spam-detection-ml.git
   cd spam-detection-ml
 
@@ -160,13 +167,13 @@ Example output:
 ---------------------------------------------------------
 
 
-**2️⃣ Install Dependencies**
+**2️⃣ Install Dependencies:**
      -pip install -r requirements.txt
 ------------------------------------
-**3️⃣ Train the Model**
+**3️⃣ Train the Model:**
     - python SpamDetection.py
 -------------------------------------
-**4️⃣ Predict New SMS**
+**4️⃣ Predict New SMS:**
     - python spam_prediction.py
 
 
@@ -206,14 +213,14 @@ Prediction: Ham
 
 
    -NLP text preprocessing
-
+###
    -Bag of Words vs TF-IDF
-
-  -Supervised classification
-
-  - Model comparison and selection
-
-  -Pipeline-based ML workflow
+###
+   -Supervised classification
+###
+   - Model comparison and selection
+#### 
+   -Pipeline-based ML workflow
 
   
 
@@ -222,5 +229,7 @@ Prediction: Ham
 **🧑‍💻 Author**
 
 Anand Upadhyay
+##
 Aspiring AI / ML Engineer
+##
 Skilled in Python, Machine Learning, NLP, and Data Science
