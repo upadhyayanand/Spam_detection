@@ -164,6 +164,7 @@ Example output:
   1️⃣ Clone the Repository
 #####
   git clone https://github.com/your-username/spam-detection-ml.git
+  ####
   cd spam-detection-ml
 
 
@@ -187,9 +188,13 @@ Example output:
      -Prediction: Spam
      
 
-Message: "Are we meeting tomorrow?"
-
-Prediction: Ham
+Message:
+###
+"Are we meeting tomorrow?"
+###
+Prediction:
+###
+Ham
 
 
 
@@ -197,15 +202,23 @@ Prediction: Ham
 
 
 **📂 Project Structure:**
+###
 
    SMS_Detection_ML/
+   ###
    │
+   ###
    ├── DATA/
    │       └── spam.csv
+   ###
    │
+   ###
    ├── SpamDetection.py
+   ###
    ├── spam_prediction.py
+   ###
    ├── best_model.pkl
+   ###
    ├── README.md
 
 
