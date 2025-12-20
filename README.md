@@ -106,7 +106,7 @@ spam
 
 ham
 
-
+-----------------------------------
 
 
 **📈 Model Evaluation**
@@ -124,6 +124,7 @@ Example output:
 -Model saved as best_model.pkl
 
 
+--------------------------------------
 
 
 **💾 Model Saving**
@@ -136,6 +137,7 @@ Example output:
 **This allows reuse without retraining.**
 
 
+-------------------------------------------
 
 
 **▶️ How to Run the Project**
@@ -145,20 +147,20 @@ Example output:
   cd spam-detection-ml
 
 
-
+---------------------------------------------------------
 
 
 **2️⃣ Install Dependencies**
-     pip install -r requirements.txt
-
+     -pip install -r requirements.txt
+------------------------------------
 **3️⃣ Train the Model**
-     python SpamDetection.py
-
+    - python SpamDetection.py
+-------------------------------------
 **4️⃣ Predict New SMS**
-     python spam_prediction.py
+    - python spam_prediction.py
 
 
-     
+------------------------------------------     
 
 **📌 Example Prediction**
      -Message: "Congratulations! You won a free gift"
@@ -166,10 +168,12 @@ Example output:
      
 
 Message: "Are we meeting tomorrow?"
+
 Prediction: Ham
 
 
 
+--------------------------------------------
 
 
 **📂 Project Structure**
@@ -184,6 +188,7 @@ Prediction: Ham
    ├── README.md
 
 
+---------------------------------------------
 
 
 **🎯 Key Learnings**
@@ -200,7 +205,7 @@ Prediction: Ham
 
   
 
-
+----------------------------------------------
 
 **🧑‍💻 Author**
 
