@@ -65,16 +65,16 @@ The model converts text into numerical features using Count Vectorization and TF
 
 **Key imports used in the project:**
 
-import pandas as pd
-import joblib
-
-from sklearn.model_selection import train_test_split
-from sklearn.pipeline import Pipeline
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.linear_model import LogisticRegression
-from sklearn.naive_bayes import MultinomialNB
-from sklearn.svm import LinearSVC
-from sklearn.metrics import accuracy_score
+-import pandas as pd
+-import joblib
+######
+-from sklearn.model_selection import train_test_split
+-from sklearn.pipeline import Pipeline
+-from sklearn.feature_extraction.text import CountVectorizer
+-from sklearn.linear_model import LogisticRegression
+-from sklearn.naive_bayes import MultinomialNB
+-from sklearn.svm import LinearSVC
+-from sklearn.metrics import accuracy_score
 
 --------------------------------------------
 
